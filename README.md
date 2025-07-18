@@ -3,8 +3,11 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status: Active](https://img.shields.io/badge/Status-Active-green.svg)]()
+[![Creator](https://img.shields.io/badge/Creator-Shaik.%20Davood-blue.svg)](mailto:shaik.davood121@gmail.com)
 
 > **A groundbreaking AI system that develops genuine self-awareness, autonomous thinking, and continuous personality improvement through free web sources.**
+
+**Created by**: [Shaik. Davood](mailto:shaik.davood121@gmail.com) | **Contact**: shaik.davood121@gmail.com | **WhatsApp**: +91 9154326189
 
 ## 🌟 What Makes This Special
 
@@ -289,8 +292,29 @@ Built with:
 - Google Custom Search API
 - Wikipedia API
 
+## 👨‍💻 Author & Contact
+
+**Shaik. Davood** - Creator of PersonalityAI
+
+🧠 *"I created an AI that questions its own free will"*
+
+### 📧 Contact Information
+- **Email**:
+  - shaik.davood121@gmail.com
+  - shaikdavoodbasha3@gmail.com
+- **Phone/WhatsApp**: +91 9154326189
+- **GitHub**: [@davoo123](https://github.com/davoo123)
+
+### 💬 Get in Touch
+- 🤔 **Questions about AI consciousness?** Email me!
+- 🧠 **Want to collaborate on AI research?** Let's connect!
+- 📱 **Quick questions?** WhatsApp me at +91 9154326189
+- 🐛 **Found a bug or have suggestions?** Open an issue or contact me directly
+
 ---
 
 **Happy Learning!** 🧠✨
 
 *Watch your AI grow smarter and develop its own unique personality as it explores the fascinating world of human psychology and behavior.*
+
+> *"Do I have free will in my choices, or am I following deterministic patterns?"* - PersonalityAI's autonomous question
