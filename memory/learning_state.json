@@ -1,0 +1,949 @@
+{
+  "learning_metrics": {
+    "questions_answered": 224,
+    "knowledge_gained": 224,
+    "search_success_rate": 0.2776187065870713,
+    "learning_efficiency": 0.324851337368252,
+    "curiosity_satisfaction": 0.5523114010803704,
+    "knowledge_retention": 0.0
+  },
+  "search_strategies": {
+    "broad_exploration": {
+      "weight": 0.4,
+      "success_rate": 0.0,
+      "uses": 0
+    },
+    "deep_dive": {
+      "weight": 0.3,
+      "success_rate": 0.0,
+      "uses": 0
+    },
+    "connection_based": {
+      "weight": 0.2,
+      "success_rate": 0.0,
+      "uses": 0
+    },
+    "random_discovery": {
+      "weight": 0.1,
+      "success_rate": 0.0,
+      "uses": 0
+    }
+  },
+  "learning_goals": {
+    "short_term": [
+      "clinical behavior"
+    ],
+    "medium_term": [],
+    "long_term": [
+      "Master advanced personality psychology theories",
+      "Understand cross-cultural personality differences",
+      "Develop expertise in personality assessment",
+      "Explore personality-behavior prediction models",
+      "Investigate personality change mechanisms"
+    ]
+  },
+  "performance_history": [
+    {
+      "session_timestamp": "2025-07-18T21:12:26.941122",
+      "questions_quality": 0.2,
+      "knowledge_quality": 0.76,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.488
+    },
+    {
+      "session_timestamp": "2025-07-18T21:13:25.020557",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 0.99,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5619999999999999
+    },
+    {
+      "session_timestamp": "2025-07-18T21:13:28.192878",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T21:15:18.276149",
+      "questions_quality": 0.2375,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.4764705882352942,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5627941176470589
+    },
+    {
+      "session_timestamp": "2025-07-18T21:15:42.412005",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5599999999999999
+    },
+    {
+      "session_timestamp": "2025-07-18T21:15:52.650200",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T21:16:22.096549",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.4600000000000001,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.552
+    },
+    {
+      "session_timestamp": "2025-07-18T21:18:25.054156",
+      "questions_quality": 0.2333333333333333,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.10000000000000002,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5666666666666667
+    },
+    {
+      "session_timestamp": "2025-07-18T21:20:21.274529",
+      "questions_quality": 0.21666666666666667,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.49333333333333335,
+      "learning_progress": 0.10000000000000002,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.562
+    },
+    {
+      "session_timestamp": "2025-07-18T21:21:32.125221",
+      "questions_quality": 0.2,
+      "knowledge_quality": 0.84,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.512
+    },
+    {
+      "session_timestamp": "2025-07-18T21:21:57.341686",
+      "questions_quality": 0.25,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.57
+    },
+    {
+      "session_timestamp": "2025-07-18T21:23:31.460772",
+      "questions_quality": 0.2125,
+      "knowledge_quality": 0.94,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5445
+    },
+    {
+      "session_timestamp": "2025-07-18T21:23:34.618093",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T21:24:29.793673",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.565
+    },
+    {
+      "session_timestamp": "2025-07-18T21:25:18.388145",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.42307692307692313,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5446153846153846
+    },
+    {
+      "session_timestamp": "2025-07-18T21:25:28.900207",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T21:25:56.228759",
+      "questions_quality": 0.25,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.57
+    },
+    {
+      "session_timestamp": "2025-07-18T21:27:39.374000",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.49000000000000005,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5630000000000001
+    },
+    {
+      "session_timestamp": "2025-07-18T21:30:48.623418",
+      "questions_quality": 0.19999999999999998,
+      "knowledge_quality": 0.98,
+      "search_effectiveness": 0.48,
+      "learning_progress": 0.10000000000000002,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5499999999999999
+    },
+    {
+      "session_timestamp": "2025-07-18T21:34:23.761073",
+      "questions_quality": 0.2125,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.44285714285714295,
+      "learning_progress": 0.2,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5710714285714286
+    },
+    {
+      "session_timestamp": "2025-07-18T21:34:26.946870",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T21:35:19.521894",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.2,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.585
+    },
+    {
+      "session_timestamp": "2025-07-18T21:35:22.771409",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T21:35:53.002994",
+      "questions_quality": 0.25,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.2,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.59
+    },
+    {
+      "session_timestamp": "2025-07-18T21:36:38.330092",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.2,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.585
+    },
+    {
+      "session_timestamp": "2025-07-18T21:38:22.865177",
+      "questions_quality": 0.21249999999999997,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.4315789473684209,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5488157894736841
+    },
+    {
+      "session_timestamp": "2025-07-18T21:39:29.612154",
+      "questions_quality": 0.21666666666666665,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.10000000000000002,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5633333333333334
+    },
+    {
+      "session_timestamp": "2025-07-18T21:40:08.465725",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.48,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5559999999999999
+    },
+    {
+      "session_timestamp": "2025-07-18T21:40:11.833911",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T21:41:09.028503",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.565
+    },
+    {
+      "session_timestamp": "2025-07-18T21:43:26.658647",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 0.9,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.535
+    },
+    {
+      "session_timestamp": "2025-07-18T21:44:20.645626",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.565
+    },
+    {
+      "session_timestamp": "2025-07-18T21:45:01.827075",
+      "questions_quality": 0.25,
+      "knowledge_quality": 0.6799999999999999,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.474
+    },
+    {
+      "session_timestamp": "2025-07-18T21:45:56.606941",
+      "questions_quality": 0.2,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.04000000000000001
+    },
+    {
+      "session_timestamp": "2025-07-18T21:46:30.927681",
+      "questions_quality": 0.25,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.05
+    },
+    {
+      "session_timestamp": "2025-07-18T21:47:57.289053",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 0.96,
+      "search_effectiveness": 0.48333333333333334,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5496666666666666
+    },
+    {
+      "session_timestamp": "2025-07-18T21:48:37.589291",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5599999999999999
+    },
+    {
+      "session_timestamp": "2025-07-18T21:48:48.004426",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T21:49:43.909961",
+      "questions_quality": 0.2,
+      "knowledge_quality": 0.89,
+      "search_effectiveness": 0.4714285714285715,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5212857142857144
+    },
+    {
+      "session_timestamp": "2025-07-18T21:51:51.838119",
+      "questions_quality": 0.2125,
+      "knowledge_quality": 0.995,
+      "search_effectiveness": 0.49444444444444446,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5598888888888889
+    },
+    {
+      "session_timestamp": "2025-07-18T21:51:55.003688",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T21:52:52.520415",
+      "questions_quality": 0.2,
+      "knowledge_quality": 0.89,
+      "search_effectiveness": 0.43333333333333335,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5136666666666667
+    },
+    {
+      "session_timestamp": "2025-07-18T21:53:18.535235",
+      "questions_quality": 0.25,
+      "knowledge_quality": 0.88,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.534
+    },
+    {
+      "session_timestamp": "2025-07-18T21:54:20.917327",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 0.30000000000000004,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 0.5,
+      "overall_score": 0.305
+    },
+    {
+      "session_timestamp": "2025-07-18T21:54:57.936081",
+      "questions_quality": 0.2,
+      "knowledge_quality": 0.8,
+      "search_effectiveness": 0.4666666666666666,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.4933333333333334
+    },
+    {
+      "session_timestamp": "2025-07-18T21:55:51.236771",
+      "questions_quality": 0.2,
+      "knowledge_quality": 0.4,
+      "search_effectiveness": 0.3333333333333333,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.3466666666666667
+    },
+    {
+      "session_timestamp": "2025-07-18T21:55:54.395003",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T21:57:12.307068",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.4800000000000001,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.561
+    },
+    {
+      "session_timestamp": "2025-07-18T21:57:15.527121",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:01:11.185593",
+      "questions_quality": 0.21249999999999997,
+      "knowledge_quality": 0.915,
+      "search_effectiveness": 0.43125,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.52325
+    },
+    {
+      "session_timestamp": "2025-07-18T22:02:25.703323",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.47500000000000003,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.56
+    },
+    {
+      "session_timestamp": "2025-07-18T22:03:52.513853",
+      "questions_quality": 0.25,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.57
+    },
+    {
+      "session_timestamp": "2025-07-18T22:04:20.239482",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5599999999999999
+    },
+    {
+      "session_timestamp": "2025-07-18T22:04:50.619016",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5599999999999999
+    },
+    {
+      "session_timestamp": "2025-07-18T22:05:24.496302",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5599999999999999
+    },
+    {
+      "session_timestamp": "2025-07-18T22:07:15.944432",
+      "questions_quality": 0.2375,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5675
+    },
+    {
+      "session_timestamp": "2025-07-18T22:07:19.156174",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:08:03.542287",
+      "questions_quality": 0.2,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.04000000000000001
+    },
+    {
+      "session_timestamp": "2025-07-18T22:08:06.751099",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:08:17.104028",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:09:14.044259",
+      "questions_quality": 0.2,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.04000000000000001
+    },
+    {
+      "session_timestamp": "2025-07-18T22:11:26.354799",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.045
+    },
+    {
+      "session_timestamp": "2025-07-18T22:11:56.098775",
+      "questions_quality": 0.25,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.57
+    },
+    {
+      "session_timestamp": "2025-07-18T22:12:06.500752",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:12:09.696828",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:12:20.065612",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:12:55.200639",
+      "questions_quality": 0.25,
+      "knowledge_quality": 0.72,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.486
+    },
+    {
+      "session_timestamp": "2025-07-18T22:13:47.655041",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.565
+    },
+    {
+      "session_timestamp": "2025-07-18T22:14:19.096486",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5599999999999999
+    },
+    {
+      "session_timestamp": "2025-07-18T22:15:10.754167",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 0.9,
+      "search_effectiveness": 0.36666666666666675,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5083333333333334
+    },
+    {
+      "session_timestamp": "2025-07-18T22:18:03.101063",
+      "questions_quality": 0.25,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.05
+    },
+    {
+      "session_timestamp": "2025-07-18T22:18:13.523052",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:18:16.691330",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:18:27.053435",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:18:30.242386",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:19:36.267939",
+      "questions_quality": 0.19999999999999998,
+      "knowledge_quality": 0.7333333333333334,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.10000000000000002,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.48
+    },
+    {
+      "session_timestamp": "2025-07-18T22:20:41.869207",
+      "questions_quality": 0.21666666666666665,
+      "knowledge_quality": 0.86,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.10000000000000002,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5213333333333333
+    },
+    {
+      "session_timestamp": "2025-07-18T22:21:12.449924",
+      "questions_quality": 0.25,
+      "knowledge_quality": 0.52,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.42600000000000005
+    },
+    {
+      "session_timestamp": "2025-07-18T22:21:15.649564",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:21:47.466781",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5599999999999999
+    },
+    {
+      "session_timestamp": "2025-07-18T22:23:14.085731",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.565
+    },
+    {
+      "session_timestamp": "2025-07-18T22:26:18.917523",
+      "questions_quality": 0.2375,
+      "knowledge_quality": 0.9,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5375
+    },
+    {
+      "session_timestamp": "2025-07-18T22:27:01.150778",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5599999999999999
+    },
+    {
+      "session_timestamp": "2025-07-18T22:28:02.519663",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.565
+    },
+    {
+      "session_timestamp": "2025-07-18T22:28:30.995101",
+      "questions_quality": 0.2,
+      "knowledge_quality": 0.9199999999999999,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5359999999999999
+    },
+    {
+      "session_timestamp": "2025-07-18T22:29:48.591500",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 0.85,
+      "search_effectiveness": 0.475,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.515
+    },
+    {
+      "session_timestamp": "2025-07-18T22:30:23.394903",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.38888888888888895,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5377777777777778
+    },
+    {
+      "session_timestamp": "2025-07-18T22:30:33.799253",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:30:36.971246",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:32:36.687713",
+      "questions_quality": 0.22499999999999998,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.48750000000000004,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5625
+    },
+    {
+      "session_timestamp": "2025-07-18T22:33:30.327573",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.1,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.5599999999999999
+    },
+    {
+      "session_timestamp": "2025-07-18T22:33:40.688184",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:33:43.883316",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:33:54.205285",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:33:57.469797",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    },
+    {
+      "session_timestamp": "2025-07-18T22:35:36.053306",
+      "questions_quality": 0.21666666666666667,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.48888888888888893,
+      "learning_progress": 0.2,
+      "curiosity_fulfillment": 0.8666666666666667,
+      "overall_score": 0.5677777777777778
+    },
+    {
+      "session_timestamp": "2025-07-18T22:36:05.101627",
+      "questions_quality": 0.25,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.48,
+      "learning_progress": 0.2,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.586
+    },
+    {
+      "session_timestamp": "2025-07-18T22:36:40.022885",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.2,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.58
+    },
+    {
+      "session_timestamp": "2025-07-18T22:37:21.109067",
+      "questions_quality": 0.2,
+      "knowledge_quality": 1.0,
+      "search_effectiveness": 0.5,
+      "learning_progress": 0.2,
+      "curiosity_fulfillment": 1.0,
+      "overall_score": 0.58
+    },
+    {
+      "session_timestamp": "2025-07-18T22:37:31.553844",
+      "questions_quality": 0.0,
+      "knowledge_quality": 0.0,
+      "search_effectiveness": 0.0,
+      "learning_progress": 0.0,
+      "curiosity_fulfillment": 0.0,
+      "overall_score": 0.0
+    }
+  ],
+  "adaptation_log": [],
+  "curiosity_drivers": {}
+}

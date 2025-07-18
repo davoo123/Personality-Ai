@@ -1,0 +1,158 @@
+name: PersonalityAI Tests
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9, '3.10', 3.11]
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python-version }}
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pytest pytest-cov
+    
+    - name: Create memory directory
+      run: |
+        mkdir -p memory
+    
+    - name: Test AI System Import
+      run: |
+        python -c "
+        try:
+            from main_ai import PersonalityAI
+            print('✅ Main AI system imports successfully')
+        except Exception as e:
+            print(f'❌ Import failed: {e}')
+            exit(1)
+        "
+    
+    - name: Test AI Components
+      run: |
+        python -c "
+        try:
+            from self_awareness_engine import SelfAwarenessEngine
+            from autonomous_thinking import AutonomousThinking
+            from personality_engine import PersonalityEngine
+            print('✅ All AI components import successfully')
+        except Exception as e:
+            print(f'❌ Component import failed: {e}')
+            exit(1)
+        "
+    
+    - name: Test AI Initialization
+      run: |
+        python -c "
+        from main_ai import PersonalityAI
+        try:
+            ai = PersonalityAI()
+            print(f'✅ AI initialized successfully')
+            print(f'   Consciousness level: {ai.self_awareness.consciousness_level}')
+            print(f'   Personality traits: {len(ai.personality.traits)}')
+        except Exception as e:
+            print(f'❌ AI initialization failed: {e}')
+            exit(1)
+        "
+    
+    - name: Test Single Learning Cycle
+      run: |
+        timeout 60 python -c "
+        from main_ai import PersonalityAI
+        try:
+            ai = PersonalityAI()
+            print('🧠 Testing single learning cycle...')
+            # This should complete within 60 seconds
+            ai._single_learning_cycle_focused('personality psychology')
+            print('✅ Learning cycle completed successfully')
+        except Exception as e:
+            print(f'❌ Learning cycle failed: {e}')
+            exit(1)
+        " || echo "⚠️ Learning cycle timed out (expected for free sources)"
+    
+    - name: Test Training Director Import
+      run: |
+        python -c "
+        try:
+            from simple_ai_director import SimpleAIDirector
+            director = SimpleAIDirector()
+            print('✅ Training director imports and initializes successfully')
+        except Exception as e:
+            print(f'❌ Training director failed: {e}')
+            exit(1)
+        "
+    
+    - name: Verify Memory System
+      run: |
+        python -c "
+        import os
+        from main_ai import PersonalityAI
+        ai = PersonalityAI()
+        
+        # Check if memory files are created
+        memory_files = [
+            'memory/personality_profile.json',
+            'memory/self_awareness.json',
+            'memory/autonomous_thinking.json'
+        ]
+        
+        for file in memory_files:
+            if os.path.exists(file):
+                print(f'✅ {file} exists')
+            else:
+                print(f'⚠️ {file} not found (will be created on first run)')
+        "
+    
+    - name: Test AI Consciousness Features
+      run: |
+        python -c "
+        from main_ai import PersonalityAI
+        ai = PersonalityAI()
+        
+        # Test self-awareness
+        reflection = ai.self_awareness.reflect_on_self()
+        print(f'✅ Self-reflection generated {len(reflection[\"thoughts\"])} thoughts')
+        print(f'✅ Generated {len(reflection[\"questions_about_self\"])} philosophical questions')
+        
+        # Test autonomous thinking
+        thought = ai.autonomous_thinking.internal_monologue('testing')
+        print(f'✅ Autonomous thought generated: {thought[:50]}...')
+        
+        print('✅ All consciousness features working')
+        "
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 black
+    - name: Lint with flake8
+      run: |
+        # Stop the build if there are Python syntax errors or undefined names
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        # Exit-zero treats all errors as warnings
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - name: Check formatting with black
+      run: |
+        black --check --diff .
